@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+        <!--
+        Main Project File
+        Date: 12/1/20
+        Name: Andrew Truelove
+        Course: CS 0134
+        Assignment: Project Part 4
+        -->
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initital-scale=1">
+        <title>Finances in Film</title>
+        <link href="styles.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <header>
+            <img src="headerLogo.png" alt="moneyFilm" width="200" height="150"/>
+            <section id="title-subtitle-first">
+                <h2>Finance in Film</h2>
+                <h3>The money behind the movies</h3>
+            </section>
+        </header>
+
+        <aside>
+            <nav id="explore-menu">
+                <ul>
+                    <li> SORT BY: </li>
+                    <li>------------------------------</li>
+                    <li><a href="byBudget.html">FILM BUDGET</a></li>
+                    <li>------------------------------</li>
+                    <li><a href="byYear.html">YEAR RELEASED</a></li>
+                    <li>------------------------------</li>
+                    <li><a href="byGross.html">HIGHEST GROSS</a></li>
+                    <li>------------------------------</li>
+                    <li><a href="byGenre.html">FILM GENRE</a></li>
+                    <li>------------------------------</li>
+                    <li><a href="byScores.html">CRITIC SCORES</a></li>
+                </ul>    
+            </nav>
+        </aside>
+
+        <section id="table-title">
+            <h4>Top 5 Highest Grossing Films of All Time</h4>
+        </section>
+        <table id="top5">
+            <thead>
+                <tr>
+                    <th rowspan="2">Highest Grossing Movies</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Budget($)</th>
+                    <th>Gross</th>
+                    <th>Director</th>
+                    <th>Rotten Tomatoes</th>
+                    <th>IMDB</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th> Rank 1</th>
+                    <th> Avengers: Endgame </th>
+                    <th> 2019 </th>
+                    <th> $400 million</th>
+                    <th> $2.797 billion (7.0x Budget)</th>
+                    <th> Joe and Anthony Russo</th>
+                    <th> 94% </th>
+                    <th> 8.4/10 </th>
+                </tr>
+                <tr>
+                    <th> Rank 2</th>
+                    <th> Avatar </th>
+                    <th> 2009 </th>
+                    <th> $237 million</th>
+                    <th> $2.789 billion (11.8x Budget)</th>
+                    <th> James Cameron</th>
+                    <th> 82% </th>
+                    <th> 7.8/10 </th>
+                </tr>
+                <tr>
+                    <th> Rank 3</th>
+                    <th> Titanic </th>
+                    <th> 1997 </th>
+                    <th> $200 million</th>
+                    <th> $2.208 billion (11.0x Budget)</th>
+                    <th> James Cameron</th>
+                    <th> 89% </th>
+                    <th> 7.8/10 </th>
+                </tr>
+                <tr>
+                    <th> Rank 4</th>
+                    <th> Star Wars Episode VII: The Force Awakens </th>
+                    <th> 2015 </th>
+                    <th> $306 million</th>
+                    <th> $2.065 billion (6.7x Budget)</th>
+                    <th> J.J. Abrams</th>
+                    <th> 94% </th>
+                    <th> 7.9/10 </th>
+                </tr>
+                <tr>
+                    <th> Rank 5</th>
+                    <th> Avengers: Infinity War </th>
+                    <th> 2018 </th>
+                    <th> $300 million</th>
+                    <th> $2.044 billion (6.8x Budget)</th>
+                    <th> Joe and Anthony Russo</th>
+                    <th> 94% </th>
+                    <th> 8.4/10 </th>
+                </tr>
+            </tbody>
+        </table>
+        <section id="summary">
+            <ul> Fun Facts!
+                <li> - 4 of the top 5 movies were made by the same 3 directors. 
+                    The Russo brothers directed Avengers: Endgame and Avengers: Infinity War,
+                    and James Cameron directed both Avatar and Titanic.
+                </li>
+                <li> - The movies in this list span the course of just 22 years</li>
+                <li> - If you use the Explore menu to sort by budget, you'll find that 
+                    there is a tie between 4 or 5 movies for rank 5. This is due mostly to
+                    companies being vague about their real operating budgets.
+                </li>
+            </ul>
+            <p> Explore the rest of the site to learn more about your favorite movies!</p>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li>All financial data provided by <a href="https://www.the-numbers.com/">the-numbers.com</a></li>
+                </ul>
+            </nav>
+            <p></p>
+        </footer>
+
+    </body>
+</html>
